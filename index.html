@@ -1,0 +1,423 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant - Coding Challenge Agustusan by buildwithangga.com</title>
+    <link rel="stylesheet" href="asset/css/fonts.css">
+    <link rel="stylesheet" href="asset/css/bootstrap.css">
+    <link rel="stylesheet" href="asset/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="asset/css/main.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="container header">
+        <div class="row align-items-center">
+            <div class="col">
+                <nav class="primary-menu">
+                    <ul class="menu-container">
+                        <li class="menu-item active"><a class="menu-link" href="/">Home</a></li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="/">
+                                Category <img src="asset/images/icons/icon-arrow-dropdown.svg" alt="icon arrow">
+                            </a>
+                        </li>
+                        <li class="menu-item"><a class="menu-link" href="/">Services</a></li>
+                        <li class="menu-item"><a class="menu-link" href="/">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-2 text-center">
+                <img src="asset/images/logo.png" alt="logo restaurant">
+            </div>
+            <div class="col">
+                <div class="d-grid search-form-wrapper">
+                    <div class="input-group-form">
+                        <img src="asset/images/icons/icon-search.svg" alt="icon search">
+                        <input type="text" class="form-control search-form border-radius-12 fw-medium" placeholder="Search your favorite food">
+                    </div>
+                    <button type="button" class="btn btn-secondary border-radius-12 fw-semibold">Log In</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Slider Section -->
+    <section class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="position-relative">
+                    <img src="asset/images/image-slider-1.png" class="border-radius-24" alt="image display">
+                    <div class="position-absolute swiper-slide__overlay">
+                        <div class="swiper-content border-radius-24">
+                            <div class="align-items-center d-flex gap-1">
+                                <div class="reviews-wrapper">
+                                    <img src="asset/images/icons/icon-review.svg" alt="icon reviews">
+                                    <img src="asset/images/icons/icon-review.svg" alt="icon reviews">
+                                    <img src="asset/images/icons/icon-review.svg" alt="icon reviews">
+                                    <img src="asset/images/icons/icon-review.svg" alt="icon reviews">
+                                    <img src="asset/images/icons/icon-review.svg" alt="icon reviews">
+                                    <img src="asset/images/icons/icon-review.svg" alt="icon reviews">
+                                </div>
+                                <span class="feature-card__sub-title fw-semibold">5.0</span>
+                                <span>(5.2K+)</span>
+                            </div>
+                            <h1 class="feature-card__title feature-card__title--lg fw-semibold">Padang Restaurant</h1>
+                            <div class="card-text feature-card__text feature-card__text--price feature-card__title fw-semibold">
+                                IDR 49.999 - IDR 560.000
+                            </div>
+                            <div class="card-text feature-card__text">
+                                <img src="asset/images/icons/icon-location.svg" alt="icon location">
+                                Padang, Indonesia
+                            </div>
+                            <a href="/" class="btn btn-primary text-decoration-none space-action-button-banner">
+                                <span>Make Reservation</span>
+                                <img src="asset/images/icons/icon-arrow-rightside-1.svg" alt="icon arrow">
+                            </a>
+                            <label class="label-info">
+                                <img src="asset/images/icons/icon-info-square.svg" alt="icon info">
+                                No extra cost
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="asset/images/image-slider-2.png" class="border-radius-24" alt="image display">
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Section -->
+    <section class="container">
+        <!-- Feature Benefit Section -->
+        <div class="row section-gap">
+            <div class="heading-block text-center">
+                <span class="heading-block__sub fw-semibold">Special Benefit For You</span>
+                <h2 class="fw-semibold">Why Should Choose Us?</h2>
+            </div>
+            <div class="d-grid feature">
+                <div class="feature-box text-center border-radius-24">
+                    <div class="feature-box__inner">
+                        <div class="feature-box__icon">
+                            <img src="asset/images/icons/icon-discount.svg" alt="icon discount">
+                        </div>
+                        <div class="feature-box__content">
+                            <h3 class="fw-semibold">Extra Discounts</h3>
+                            <p>Get your special discount by using our reservation</p>
+                        </div>
+                    </div>
+                    <div class="feature-box__action">
+                        <a href="/" class="btn btn-primary text-decoration-none">
+                            <span>View Details</span>
+                            <img src="asset/images/icons/icon-arrow-rightside-1.svg" alt="icon arrow">
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-box text-center border-radius-24">
+                    <div class="feature-box__inner">
+                        <div class="feature-box__icon">
+                            <img src="asset/images/icons/icon-tools-eat.svg" alt="icon discount">
+                        </div>
+                        <div class="feature-box__content">
+                            <h3 class="fw-semibold">Come and Eat</h3>
+                            <p>Get your own table quickly & without waiting in line</p>
+                        </div>
+                    </div>
+                    <div class="feature-box__action">
+                        <a href="/" class="btn btn-primary text-decoration-none">
+                            <span>View Details</span>
+                            <img src="asset/images/icons/icon-arrow-rightside-1.svg" alt="icon arrow">
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-box text-center border-radius-24">
+                    <div class="feature-box__inner">
+                        <div class="feature-box__icon">
+                            <img src="asset/images/icons/icon-money.svg" alt="icon discount">
+                        </div>
+                        <div class="feature-box__content">
+                            <h3 class="fw-semibold">No Extra Fee</h3>
+                            <p>Get tax free if you want to order food and make a reservation</p>
+                        </div>
+                    </div>
+                    <div class="feature-box__action">
+                        <a href="/" class="btn btn-primary text-decoration-none">
+                            <span>No Extra Fee</span>
+                            <img src="asset/images/icons/icon-arrow-rightside-1.svg" alt="icon arrow">
+                        </a>
+                    </div>
+                </div>
+                <div class="feature-box text-center border-radius-24">
+                    <div class="feature-box__inner">
+                        <div class="feature-box__icon">
+                            <img src="asset/images/icons/icon-stars.svg" alt="icon discount">
+                        </div>
+                        <div class="feature-box__content">
+                            <h3 class="fw-semibold">Guaranteed Cleanliness</h3>
+                            <p>We ensure the cleanliness of the place as well as the food</p>
+                        </div>
+                    </div>
+                    <div class="feature-box__action">
+                        <a href="/" class="btn btn-primary text-decoration-none">
+                            <span>View Details</span>
+                            <img src="asset/images/icons/icon-arrow-rightside-1.svg" alt="icon arrow">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Most Popular Section -->
+        <div class="row section-gap">
+            <div class="d-grid align-items-center justify-content-between most-popular-wrapper">
+                <div class="heading-block">
+                    <span class="heading-block__sub fw-semibold">Top 3 Featured Restaurant</span>
+                    <h2 class="fw-semibold">Most Popular Restaurants</h2>
+                    <p>
+                        The best restaurant in our opinion is how much customers like it in terms of place, price,
+                        comfort and of course the taste of the food itself.
+                    </p>
+                    <a href="/" class="btn btn-primary text-decoration-none space-heading-most-popular">
+                        <span>View All Restaurant</span>
+                        <img src="asset/images/icons/icon-arrow-rightside-1.svg" alt="icon arrow">
+                    </a>
+                </div>
+                <div class="d-grid most-popular">
+                    <div class="feature-card feature-card--animate active" onmouseover="hoverCardHandler(this)" onmouseout="hoverOutCardHandler(this)">
+                        <img src="asset/images/feature-image-1.png" class="border-radius-24" alt="feature image">
+                        <div class="feature-card__content border-radius-24">
+                            <div>
+                                <div class="align-items-center d-flex gap-1">
+                                    <img src="asset/images/icons/icon-review.svg" alt="icon reviews">
+                                    <span class="feature-card__sub-title fw-semibold">5.0</span>
+                                    <span>(7.6K+)</span>
+                                </div>
+                                <h3 class="feature-card__title fw-semibold">Bind Balorant</h3>
+                                <p class="card-text feature-card__text">
+                                    <img src="asset/images/icons/icon-location.svg" alt="icon location">
+                                    Jakarta, Indonesia
+                                </p>
+                            </div>
+                            <div>
+                                <a href="/" class="btn btn-primary btn-icon no-gap-margin">
+                                    <img src="asset/images/icons/icon-arrow-rightside-2.svg" alt="icon arrow">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-card feature-card--animate">
+                        <img src="asset/images/feature-image-2.png" class="border-radius-24" alt="feature image">
+                    </div>
+                    <div class="feature-card feature-card--animate">
+                        <img src="asset/images/feature-image-3.png" class="border-radius-24" alt="feature image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature By Location Section -->
+        <div class="row section-gap">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="heading-block">
+                    <span class="heading-block__sub fw-semibold">Restaurant Based By City</span>
+                    <h2 class="fw-semibold">Restaurant Near You</h2>
+                </div>
+                <div class="text-right">
+                    <div class="btn-group">
+                        <button class="btn btn-link text-decoration-none btn-dropdown-toggle border-radius-12 fw-medium" type="button">
+                            <img src="asset/images/icons/icon-location.svg" alt="icon location">
+                            Jakarta, Indonesia
+                            <img src="asset/images/icons/icon-arrow-dropdown-grey.svg" alt="icon location">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-grid most-popular-location-wrapper">
+                <div class="feature-card">
+                    <img src="asset/images/feature-image-6.png" class="border-radius-24" alt="feature image">
+                    <div class="feature-card__content border-radius-24">
+                        <div>
+                            <div class="align-items-center d-flex gap-1">
+                                <img src="asset/images/icons/icon-review.svg" alt="icon reviews">
+                                <span class="feature-card__sub-title fw-semibold">5.0</span>
+                                <span>(6.6K+)</span>
+                            </div>
+                            <h3 class="feature-card__title fw-semibold">Batavia Restaurant</h3>
+                            <p class="card-text feature-card__text feature-card__text--price fw-semibold">
+                                IDR 29.000 - IDR 259.999
+                            </p>
+                        </div>
+                        <div>
+                            <a href="/" class="btn btn-primary btn-icon no-gap-margin">
+                                <img src="asset/images/icons/icon-arrow-rightside-2.svg" alt="icon arrow">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <img src="asset/images/feature-image-4.png" class="border-radius-24" alt="feature image">
+                    <div class="feature-card__content border-radius-24">
+                        <div>
+                            <div class="align-items-center d-flex gap-1">
+                                <img src="asset/images/icons/icon-review.svg" alt="icon reviews">
+                                <span class="feature-card__sub-title fw-semibold">5.0</span>
+                                <span>(3.6K+)</span>
+                            </div>
+                            <h3 class="feature-card__title fw-semibold">Split Ascent Restaurant</h3>
+                            <p class="card-text feature-card__text feature-card__text--price fw-semibold">
+                                IDR 49.999 - IDR 560.000
+                            </p>
+                        </div>
+                        <div>
+                            <a href="/" class="btn btn-primary btn-icon no-gap-margin">
+                                <img  src="asset/images/icons/icon-arrow-rightside-2.svg" alt="icon arrow">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <img src="asset/images/feature-image-5.png" class="border-radius-24" alt="feature image">
+                    <div class="feature-card__content border-radius-24">
+                        <div>
+                            <div class="align-items-center d-flex gap-1">
+                                <img src="asset/images/icons/icon-review.svg" alt="icon reviews">
+                                <span class="feature-card__sub-title fw-semibold">5.0</span>
+                                <span>(11K+)</span>
+                            </div>
+                            <h3 class="feature-card__title fw-semibold">Daza Fracture Restaurant</h3>
+                            <p class="card-text feature-card__text feature-card__text--price fw-semibold">
+                                IDR 29.999 - IDR 560.000
+                            </p>
+                        </div>
+                        <div>
+                            <a href="/" class="btn btn-primary btn-icon no-gap-margin">
+                                <img src="asset/images/icons/icon-arrow-rightside-2.svg" alt="icon arrow">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="/" class="btn btn-primary text-decoration-none space-heading-most-popular">
+                    <span>View All Restaurant</span>
+                    <img src="asset/images/icons/icon-arrow-rightside-1.svg" alt="icon arrow">
+                </a>
+            </div>
+        </div>
+
+        <!-- Chefs Section -->
+        <div class="row section-gap">
+            <div class="d-grid feature-box-wrapper">
+                <div class="position-relative text-center">
+                    <img src="asset/images/person.png" class="border-radius-24" alt="a person">
+                    <div class="feature-box__top-content border-radius-24">
+                        <img src="asset/images/icons/icon-verified.svg" alt="icon verified">
+                        <div class="feature-box__top-content-title fw-semibold">12 Years</div>
+                        <p class="card-text">Experience</p>
+                    </div>
+                    <div class="feature-box__bottom-content border-radius-24 text-start">
+                        <div class="d-grid feature-box__card">
+                            <img width="96" class="border-radius-12" src="asset/images/feature-image-2.png" alt="feature image">
+                            <div class="d-flex flex-column justify-content-center">
+                                <div>Chef at restaurant:</div>
+                                <div class="feature-box__card-title fw-semibold">Pearl Dolphin</div>
+                                <a href="/" class="btn-link text-decoration-none fw-semibold">
+                                    View Details
+                                    <img src="asset/images/icons/icon-arrow-rightside-3.svg" alt="icon arrow">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="heading-block">
+                            <span class="heading-block__sub heading-block__sub--lg fw-semibold">Top 4 Expert Chefs</span>
+                            <h2 class="fw-semibold heading-block__title--lg">Expert Chefs in Fuddy</h2>
+                        </div>
+                        <div class="d-grid panel-wrapper">
+                            <div class="d-grid panel active border-radius-24 align-items-center">
+                                <div>
+                                    <div class="d-flex align-items-center fw-medium text-uppercase">PIZZA</div>
+                                    <h3 class="feature-card__title feature-card__title--lg fw-semibold">Split Ascent Restaurant</h3>
+                                    <p class="card-text">
+                                        <img src="asset/images/icons/icon-location.svg" alt="icon location">
+                                        Jakarta, Indonesia
+                                    </p>
+                                </div>
+                                <div>
+                                    <a href="/" class="btn-link text-decoration-none fw-medium">
+                                        Profile Details
+                                        <img src="asset/images/icons/icon-arrow-rightside-3.svg" alt="icon arrow">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="d-grid panel border-radius-24 align-items-center">
+                                <div>
+                                    <div class="d-flex align-items-center fw-medium text-uppercase">vegan</div>
+                                    <h3 class="feature-card__title feature-card__title--lg fw-semibold">Chamber Botfrag</h3>
+                                    <p class="card-text">
+                                        <img src="asset/images/icons/icon-location.svg" alt="icon location">
+                                        Bandung, Indonesia
+                                    </p>
+                                </div>
+                                <div>
+                                    <a href="/" class="btn-link text-decoration-none fw-medium">
+                                        Profile Details
+                                        <img src="asset/images/icons/icon-arrow-rightside-3.svg" alt="icon arrow">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="d-grid panel border-radius-24 align-items-center">
+                                <div>
+                                    <div class="d-flex align-items-center fw-medium text-uppercase">roast chicken</div>
+                                    <h3 class="feature-card__title feature-card__title--lg fw-semibold">Asep Vandal</h3>
+                                    <p class="card-text">
+                                        <img src="asset/images/icons/icon-location.svg" alt="icon location">
+                                        Sunda, Indonesia
+                                    </p>
+                                </div>
+                                <div>
+                                    <a href="/" class="btn-link text-decoration-none fw-medium">
+                                        Profile Details
+                                        <img src="asset/images/icons/icon-arrow-rightside-3.svg" alt="icon arrow">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="d-grid panel border-radius-24 align-items-center">
+                                <div>
+                                    <div class="d-flex align-items-center fw-medium text-uppercase">beef steak</div>
+                                    <h3 class="feature-card__title feature-card__title--lg fw-semibold">I Made Invoker</h3>
+                                    <p class="card-text">
+                                        <img src="asset/images/icons/icon-location.svg" alt="icon location">
+                                        Bali, Indonesia
+                                    </p>
+                                </div>
+                                <div>
+                                    <a href="/" class="btn-link text-decoration-none fw-medium">
+                                        Profile Details
+                                        <img src="asset/images/icons/icon-arrow-rightside-3.svg" alt="icon arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="/" class="btn btn-primary text-decoration-none">
+                            <span>View All Chef</span>
+                            <img src="asset/images/icons/icon-arrow-rightside-1.svg" alt="icon arrow">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="asset/js/swiper-bundle.min.js"></script>
+    <script src="asset/js/main.js"></script>
+</body>
+
+</html>
